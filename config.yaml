@@ -1,0 +1,6 @@
+rows: null
+categorical_threshold: 20
+seed: 42
+pca_components: 2
+hist_bins: 30
+pairplot_sample: 500

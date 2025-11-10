@@ -35,35 +35,34 @@ This project quantifies those tradeoffs in a reproducible, visual, and data-driv
 ## Pipeline Overview
 
 ```
+
+```
         ┌───────────────────────────┐
-        │       Real Dataset        │
+        │      Real Dataset         │
         └────────────┬──────────────┘
                      │
                      ▼
        ┌──────────────────────────────┐
-       │   Preprocessing & Schema     │
+       │ Preprocessing & Schema       │
        │ Numeric / Categorical Split  │
        └────────────┬─────────────────┘
                     │
     ┌───────────────┴────────────────────┐
     │                                    │
     ▼                                    ▼
+```
+
 ┌────────────────┐                ┌────────────────────┐
-│   Gaussian     │                │    Variational     │
-│  Copula Model  │                │  Autoencoder (VAE) │
+│  Gaussian      │                │ Variational        │
+│  Copula Model  │                │ Autoencoder (VAE)  │
 └────────────────┘                └────────────────────┘
-    │                                    │
-    ▼                                    ▼
-┌───────────────────┐             ┌────────────────────┐
-│ Synthetic Dataset │             │  Synthetic Dataset │
-└───────────────────┘             └────────────────────┘
-    │                                    │
-    └──────────────────┬─────────────────┘
-                       │
-                       ▼
-     ┌──────────────────────────────────┐
-     │ Evaluation & Visualization Suite │
-     └──────────────────────────────────┘
+│                                    │
+▼                                    ▼
+Synthetic Dataset                    Synthetic Dataset
+│                                    │
+└────────────────┬───────────────────┘
+▼
+Evaluation & Visualization Suite
 
 ```
 
@@ -179,32 +178,32 @@ synthetic-data-artist/
 ### Copula
 
 #### Distribution Overlap
-<img width="800" height="880" alt="distribution_overlap" src="https://github.com/user-attachments/assets/3460e493-5107-4f6a-969a-379a248b9951" />
+![Copula Distribution Overlap](outputs/copula_run/plots/distribution_overlap.png)
 
 #### Correlation Heatmap
-<img width="1000" height="400" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/64563fa3-acda-454f-a26b-4a0ab6828aff" />
+![Copula Correlation Heatmap](outputs/copula_run/plots/correlation_heatmap.png)
 
 #### PCA Projection
-<img width="700" height="500" alt="pca_projection" src="https://github.com/user-attachments/assets/269244de-3549-4fd7-a0c5-a70ed80241ff" />
+![Copula PCA Projection](outputs/copula_run/plots/pca_projection.png)
 
 #### Pairplot Comparison
-<img width="1108" height="986" alt="pairplot_comparison" src="https://github.com/user-attachments/assets/0667a01a-cea6-48cd-bb4e-d0b6e699bafd" />
+![Copula Pairplot](outputs/copula_run/plots/pairplot_comparison.png)
 
 ---
 
 ### Variational Autoencoder
 
 #### Distribution Overlap
-<img width="800" height="880" alt="distribution_overlap" src="https://github.com/user-attachments/assets/af55d68b-4697-4bdf-be8d-dab32020f2d4" />
+![VAE Distribution Overlap](outputs/vae_run/plots/distribution_overlap.png)
 
 #### Correlation Heatmap
-<img width="1000" height="400" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/1ac19d4a-45ed-48e8-bfed-1f00250ac38b" />
+![VAE Correlation Heatmap](outputs/vae_run/plots/correlation_heatmap.png)
 
 #### PCA Projection
-<img width="700" height="500" alt="pca_projection" src="https://github.com/user-attachments/assets/5cc5797c-2d87-4c83-aeb4-14910c49daab" />
+![VAE PCA Projection](outputs/vae_run/plots/pca_projection.png)
 
 #### Pairplot Comparison
-<img width="1108" height="986" alt="pairplot_comparison" src="https://github.com/user-attachments/assets/ec65bc06-dc80-4a69-a207-4ccfdcb7ca9f" />
+![VAE Pairplot](outputs/vae_run/plots/pairplot_comparison.png)
 
 ---
 
@@ -224,6 +223,26 @@ synthetic-data-artist/
 
 - **Copula-based synthetic data** is ideal for *regulatory or compliance-sensitive* use cases (finance, healthcare) where maintaining statistical fidelity is crucial.  
 - **VAE-based synthetic data** fits *research, simulation, or augmentation* contexts requiring diversity and creativity in generated samples.  
+
+---
+
+## Limitations
+
+| Model | Limitations |
+|:--|:--|
+| **Copula** | Can’t model nonlinear dependencies or complex categorical relationships |
+| **VAE** | Sensitive to scaling, may introduce unrealistic variance for small data |
+| **General** | Both assume balanced feature representation; skewed data can bias generation |
+
+---
+
+## Future Work
+
+1. Integrate **CTGAN** and **Gaussian Mixture VAEs** for hybrid modeling.  
+2. Introduce **privacy metrics** (e.g., membership inference tests).  
+3. Add **conditional generation** (e.g., label-controlled sampling).  
+4. Automate **benchmark dashboard** using Streamlit or Plotly Dash.  
+5. Compare against **Diffusion Models** and **Copula Flows**.  
 
 ---
 
@@ -262,23 +281,3 @@ outputs/
     ├── pca_projection.png
     └── pairplot_comparison.png
 ```
-
----
-
-## Limitations
-
-| Model | Limitations |
-|:--|:--|
-| **Copula** | Can’t model nonlinear dependencies or complex categorical relationships |
-| **VAE** | Sensitive to scaling, may introduce unrealistic variance for small data |
-| **General** | Both assume balanced feature representation; skewed data can bias generation |
-
----
-
-## Future Work
-
-1. Integrate **CTGAN** and **Gaussian Mixture VAEs** for hybrid modeling.  
-2. Introduce **privacy metrics** (membership inference tests).  
-3. Add **conditional generation** (label-controlled sampling).  
-4. Automate **benchmark dashboard** using Streamlit or Plotly Dash.  
-5. Compare against **Diffusion Models** and **Copula Flows**.  
