@@ -35,9 +35,9 @@ This project quantifies those tradeoffs in a reproducible, visual, and data-driv
 ## Pipeline Overview
 
 ```
-         ┌───────────────────────────┐
-         │        Real Dataset       │
-         └──────────────┬────────────┘
+           ┌─────────────────────────┐
+           │       Real Dataset      │
+           └────────────┬────────────┘
                         │
                         ▼
         ┌──────────────────────────────┐
